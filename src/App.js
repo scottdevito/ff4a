@@ -30,6 +30,10 @@ class App extends Component {
                 placeholder="Email"
                 required
               />
+              <p className="subtle-text">
+                Sign up to recieve exlusive deals and free workout plans every
+                month.
+              </p>
               <button type="button" className="btn btn-primary btn-lg outline">
                 Sign Up
               </button>

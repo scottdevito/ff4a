@@ -30,6 +30,9 @@ class App extends Component {
                 placeholder="Email"
                 required
               />
+              <button type="button" className="btn btn-primary btn-lg outline">
+                Sign Up
+              </button>
             </div>
           </div>
 

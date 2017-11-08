@@ -24,6 +24,7 @@ class App extends Component {
               </p>
             </div>
             <div className="signup">
+              <h1>Sign up for updates</h1>
               <input
                 className="inputs underline--magical"
                 placeholder="Email"

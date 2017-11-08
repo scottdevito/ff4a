@@ -1,18 +1,74 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Headroom from 'react-headroom';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+        <Headroom>
+          <div className="header">Header</div>
+        </Headroom>
+
+        <div className="main-content">
+          <div className="hero">
+            <p>Hero</p>
+          </div>
+
+          <div className="white-section">
+            <div className="jumbotron">
+              <h1 className="jumbo-text">Make a good first impression</h1>
+              <p>
+                This is where you'd let people know what your company is about.
+                A short paragraph to outline your main selling point
+              </p>
+            </div>
+            <div className="signup">
+              <input />
+            </div>
+          </div>
+
+          <div className="accent-section">
+            <div className="card-light">
+              Check this out
+              <button className="success-button">Click here</button>
+            </div>
+          </div>
+
+          <div className="white-section">
+            <div className="card-dark">
+              Check this out
+              <button className="success-button">Click here</button>
+            </div>
+
+            <div className="card-dark">
+              Check this out
+              <button className="success-button">Click here</button>
+            </div>
+          </div>
+
+          <div className="accent-section">
+            <h1 className="jumbo-text">Check this out</h1>
+            <button className="success-button">Click here</button>
+          </div>
+
+          <div className="white-section">
+            <img
+              src="https://ak2.picdn.net/shutterstock/videos/23723659/thumb/1.jpg"
+              alt="weights"
+            />
+            <div className="jumbotron">
+              <h1 className="jumbo-text">Make a good first impression</h1>
+              <p>
+                This is where you'd let people know what your company is about.
+                A short paragraph to outline your main selling point
+              </p>
+            </div>
+          </div>
+          <div className="footer">
+            <div className="row">Footer Content</div>
+          </div>
+        </div>
       </div>
     );
   }
